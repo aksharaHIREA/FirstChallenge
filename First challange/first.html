@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>First Challenge</title>
+</head>
+
+<style>
+    body{ 
+       
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .main{
+  margin: 0 auto;
+  display:flex;
+}
+
+.thirdchild{
+        margin: auto;       
+    }
+    
+    .grandfather{
+        background-color: rgb(140, 184, 100);
+        color: white;
+        height: 7rem;
+        width: 49rem;
+        padding-left: 3rem;
+        padding-top: 1rem;
+    }
+
+    .father{
+        padding-top: 20px;
+        display: flex;
+        width: 500px;
+        height:40px;
+        font-size: 30px;
+        flex-direction: column;
+    }
+
+    .mother{
+        background-color: rgb(233, 233, 233);
+        width: 50rem;
+        height: 30rem;
+        padding-top: 1rem;
+        padding-left: 2rem;
+    }
+
+    .firstchild{
+        width: 40rem;
+        padding-left: 20px; 
+        padding-top: 5px; 
+        padding-bottom: 5px;   
+    }
+
+    .secondchild{
+        width: 40rem;
+        padding-left: 20px; 
+        padding-top: 5px; 
+        padding-bottom: 5rem;
+        margin-left: 20px;
+    }
+
+
+</style>
+<body>
+    <div class="main">
+    <div class="thirdchild">
+    <div class="grandfather">
+        <div class="father">Contact From</div>
+        Please fill all the texts in the fields.
+    </div>
+    
+    <div class="mother">
+        <form>
+            
+                  <label class="firstchild">Your Name : </label><br>
+                  &nbsp&nbsp&nbsp  <input type="text" class="firstchild" name="fname" value="Your full name">
+        <br><br>
+         
+                  <label class="firstchild">Your Email : </label><br>
+                  &nbsp&nbsp&nbsp  <input type="text" class="firstchild" name="fname" value="Vaild Email Address">       
+        <br><br>
+                   
+                &nbsp&nbsp&nbsp   <label for="fname">Message : </label><br>
+            <textarea type="text" class="secondchild" name="fname" value="Your Message to Us"></textarea>
+        <br>
+        <br>
+        
+        &nbsp&nbsp&nbsp   <label for="fname">Subject : </label><br>
+        &nbsp&nbsp&nbsp <input type="text" class="firstchild" name="fname" value="Job Inquiry"><br>
+
+        <br>
+
+        &nbsp&nbsp&nbsp  <input type="submit" value="Send">
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>
